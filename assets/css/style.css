@@ -1,0 +1,111 @@
+body {
+    margin:0;
+    padding:0;
+    background-color:#f5f9ff;
+    background-size:16px 16px;
+    color:white;
+}
+
+.loader{
+    margin: auto;
+    margin-top:150px;
+    background-color:#2f3545;
+    border: 7px solid #2f3545;
+    border-radius: 50%;
+    width: 190px;
+    height: 190px;
+    animation: spin 2s linear infinite;
+}
+
+.loader .pikachu-top{
+    margin-top:-50px;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.main{
+    opacity: 0;
+    display: none;
+    transition: opacity 1s ease-in;
+}
+
+.container{
+    background-color: #ffffff;
+    color: rgb(39, 105, 190);
+    border-radius: 5px;
+
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    margin-bottom:25px;
+}
+
+h1{
+    font-family: 'Permanent Marker', cursive;
+    color: rgb(0, 0, 0);
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 38px;
+}
+
+h1:after {
+	content: "";
+	height: 3px;
+	width: 100px;
+    margin: 0.8em auto 0 auto;
+    margin-bottom: 5px;
+	display: block;
+	background: #f0f0f0
+}
+
+p{
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size:18px;  
+}
+
+span{
+    font-weight: 700;
+}
+
+.columns{
+    border-radius: 10px;
+}
+
+.columns:hover{ 
+    box-shadow:0 .6rem 1.4rem .5rem rgba(0,0,0,.06);
+}
+
+small{
+    color: rgb(115, 115, 115);
+    font-size: 14px;
+    line-height: 17.5px;;
+}
+
+.psychic{
+    color: rgb(255, 34, 122);
+    font-size: 14px;
+    line-height: 17.5px;
+    text-align: center;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.mew-name{
+    margin-bottom:5px;
+}
+
+.descr{
+    text-transform: none;
+    font-weight: 500;
+    margin-bottom:5px;
+    font-size:16px;
+    color: #000;
+    margin-left:7px;
+}
